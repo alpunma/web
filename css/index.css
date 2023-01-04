@@ -134,7 +134,7 @@ h4 {
 }
 
 @media (max-width: 790px) {
-  .contact > ul > li:first-child{
+  .contact > ul > li:first-child {
     list-style: disc;
   }
 }
@@ -144,9 +144,13 @@ h4 {
   list-style-position: inside;
 }
 
-.contact > ul> li:last-child {
+.contact > ul > li:last-child {
   margin-inline-end: 0px;
   margin-right: 0px;
+}
+
+.contact > ul > li > p {
+  display: inline;
 }
 
 .relevant {
