@@ -37,7 +37,6 @@ video,
 canvas,
 svg {
   display: block;
-  max-width: 100%;
 }
 /*
     7. Remove built-in form typography styles
@@ -69,6 +68,8 @@ h4 {
 
 :root {
   font-family: "Noto Sans", sans-serif;
+  background-color: rgb(236, 236, 236);
+  color: rgb(27, 27, 27);
 }
 
 h1,
@@ -92,7 +93,7 @@ div {
 }
 
 h1 {
-  font-size: 18pt;
+  font-size: 1.125em;
   font-weight: bold;
 }
 
@@ -101,22 +102,21 @@ h1 {
 }
 
 h2 {
-  font-size: 14pt;
+  font-size: .875em;
   font-weight: bold;
 }
 
 h3 {
-  font-size: 16pt;
+  font-size: 1em;
   font-weight: bold;
 }
 
 h4 {
-  /* font-weight: ; */
-  font-size: 12pt;
+  font-size: .875em;
 }
 
 p {
-  font-size: 10pt;
+  font-size: .75em;
   font-weight: 400;
 }
 
@@ -176,9 +176,9 @@ p {
   grid-template-columns: repeat(4, 1fr);
   gap: 0px;
   grid-auto-rows: minmax(auto, auto);
-}
+}sta
 
-.skills > div:nth-child(2n-1) {
+.skills > div:nth-child(2n-1) > p {
   font-weight: bold;
 }
 
