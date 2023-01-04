@@ -128,12 +128,22 @@ h4 {
   justify-content: center;
 }
 
-.contact > ul :first-child {
+.contact > ul > li:first-child {
   list-style: none;
+  margin-inline-start: 0px;
+  margin-left: 0px;
 }
 
 .contact > ul > li {
-  margin-inline-end: 18px;
+  margin-inline-end: 2px;
+  margin-right: 2px;
+  margin-inline-start: 18px;
+  margin-left: 18px;
+}
+
+.contact > ul> li:last-child {
+  margin-inline-end: 0px;
+  margin-right: 0px;
 }
 
 .relevant {
