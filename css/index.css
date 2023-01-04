@@ -126,19 +126,22 @@ h4 {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .contact > ul > li:first-child {
   list-style: none;
-  margin-inline-start: 0px;
-  margin-left: 0px;
+}
+
+@media (max-width: 790px) {
+  .contact > ul > li:first-child{
+    list-style: disc;
+  }
 }
 
 .contact > ul > li {
-  margin-inline-end: 2px;
-  margin-right: 2px;
-  margin-inline-start: 18px;
-  margin-left: 18px;
+  margin-inline-start: 8px;
+  list-style-position: inside;
 }
 
 .contact > ul> li:last-child {
