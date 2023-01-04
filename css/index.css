@@ -57,6 +57,7 @@ h2,
 h3,
 h4 {
   overflow-wrap: break-word;
+  font-size: 100%;
 }
 /*
     9. Create a root stacking context
@@ -91,7 +92,7 @@ div {
 }
 
 h1 {
-  font-size: 16pt;
+  font-size: 18pt;
   font-weight: bold;
 }
 
@@ -100,22 +101,23 @@ h1 {
 }
 
 h2 {
-  font-size: 12pt;
+  font-size: 14pt;
   font-weight: bold;
 }
 
 h3 {
-  font-size: 13pt;
+  font-size: 16pt;
   font-weight: bold;
 }
 
 h4 {
-  font-weight: 400;
+  /* font-weight: ; */
+  font-size: 12pt;
 }
 
-p,
-h4 {
-  font-size: 12pt;
+p {
+  font-size: 10pt;
+  font-weight: 400;
 }
 
 .contact > h2 {
@@ -132,6 +134,7 @@ h4 {
 .contact > ul > li:first-child {
   list-style: none;
 }
+
 
 @media (max-width: 790px) {
   .contact > ul > li:first-child {
