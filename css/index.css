@@ -113,6 +113,7 @@ h3 {
 
 h4 {
   font-size: .875em;
+  font-weight: 400;
 }
 
 p {
@@ -159,6 +160,7 @@ p {
 .relevant {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
 }
 
 .internal > h4 {
@@ -176,7 +178,7 @@ p {
   grid-template-columns: repeat(4, 1fr);
   gap: 0px;
   grid-auto-rows: minmax(auto, auto);
-}sta
+}
 
 .skills > div:nth-child(2n-1) > p {
   font-weight: bold;
